@@ -1,0 +1,19 @@
+:root {
+  /* Set base font size so 1rem = 10px */
+  font-size: 62.5%;
+  /* 62.5% of 16px = 10px */
+
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-bg-primary: #14120B;
+  --color-text-primary: #EDECEC;
+  --color-text-secondary: #8E8E8E;
+  --color-accent: #F54E00;
+
+  /* Container */
+  --container-width: 130rem;
+
+  /* Font Family */
+  --font-family-primary: 'CursorGothic', sans-serif;
+}

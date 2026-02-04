@@ -1,0 +1,89 @@
+/* Feature cards */
+.feature-cards {
+  text-align: left;
+}
+
+.section-title {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #e5e5e5;
+  background: none;
+  -webkit-text-fill-color: initial;
+  font-weight: 500;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  text-align: left;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.card {
+  background: #1b1913;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 40rem;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-content {
+  padding: 1.7rem;
+}
+
+.card h3 {
+  font-size: 2.2rem;
+  line-height: 2.86rem;
+  letter-spacing: -0.011rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+
+.card p {
+  font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: var(--color-text-secondary);
+}
+
+.card-link {
+  margin-top: 1.4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: var(--color-accent);
+  transition: opacity 0.2s;
+}
+
+.card-link:hover {
+  opacity: 0.8;
+}
+
+.card-img {
+  margin-top: auto;
+  object-fit: cover;
+  max-width: 40rem;
+  height: 40rem;
+  display: block;
+}
+
+.card-img-placeholder {
+  width: 100%;
+  height: 16rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.8rem;
+  margin-top: auto;
+}

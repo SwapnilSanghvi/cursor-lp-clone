@@ -1,0 +1,15 @@
+/* Final CTA */
+.final-cta {
+  text-align: center;
+  padding: 16rem 0;
+}
+
+.final-cta h2 {
+  font-size: 6.4rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.1;
+  color: #dedede;
+  font-weight: 500;
+  background: none;
+  -webkit-text-fill-color: initial;
+}

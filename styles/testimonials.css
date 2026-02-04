@@ -1,0 +1,70 @@
+/* Testimonials */
+.testimonials {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.testimonial-card {
+  background: #0f0f0f;
+  border: none;
+  padding: 1.5rem 1.7rem 1.7rem 1.7rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 28rem;
+}
+
+.testimonial-card p {
+  font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.008rem;
+  color: var(--color-text-primary);
+  font-style: normal;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: auto;
+}
+
+.author-avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 0.4rem;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.author-name {
+  font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0.014rem;
+  color: var(--color-text-primary);
+}
+
+.author-role {
+  font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0.014rem;
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('../assets/font/CursorGothic_Regular.woff2') format('woff2');
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('../assets/font/CursorGothic_Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('../assets/font/CursorGothic_Bold.woff2') format('woff2');
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('../assets/font/CursorGothic_BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
